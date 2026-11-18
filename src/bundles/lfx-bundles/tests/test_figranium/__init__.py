@@ -1,1 +1,0 @@
-"""Figranium bundle tests."""

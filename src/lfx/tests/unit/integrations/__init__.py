@@ -1,1 +1,0 @@
-"""Dedicated integration contract tests."""

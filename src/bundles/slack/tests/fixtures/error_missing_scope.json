@@ -1,6 +1,0 @@
-{
-  "ok": false,
-  "error": "missing_scope",
-  "needed": "users:read",
-  "provided": "channels:read,groups:read"
-}

@@ -1,1 +1,0 @@
-"""MrScraper component unit tests."""
