@@ -21,7 +21,7 @@ export default defineConfig(({ command, mode }) => {
     path: path.resolve(__dirname, "../../.env"),
   });
 
-  const envLangflow = envLangflowResult.parsed || {};
+  const envLangflow = { ...envLangflowResult.parsed, ...process.env };
 
   const apiRoutes = API_ROUTES || ["^/api/v1/", "^/api/v2/", "/health"];
   const basePath = normalizeBasePath(env.VITE_LANGFLOW_BASE_PATH ?? BASENAME);

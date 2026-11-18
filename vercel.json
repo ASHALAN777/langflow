@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd src/frontend && npm ci",
+  "buildCommand": "cd src/frontend && test -n \"$LANGFLOW_BACKEND_URL\" && BACKEND_URL=\"$LANGFLOW_BACKEND_URL\" npm run build",
+  "outputDirectory": "src/frontend/build"
+}
